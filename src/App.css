@@ -15,3 +15,7 @@ button{
     font-size: 20px;
     border: none;
 }
+
+.file-icon {
+  margin-right: 10px; /* Adjust the spacing as needed */
+}
