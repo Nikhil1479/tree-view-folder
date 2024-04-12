@@ -19,14 +19,6 @@ export function Folder({ files }) {
   let icon_extension = "default";
   console.log(files);
 
-  if (!files.isFolder) {
-    // If it's a folder
-    icon_extension = files.name.split(".").pop(); // Extract extension
-  } else {
-    // If it's not a folder
-    icon_extension = "default"; // Set default extension
-  }
-
   return (
     <div>
       <div>
